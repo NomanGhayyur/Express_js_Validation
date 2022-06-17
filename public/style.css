@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Montserrat:wght@400;700&family=Oswald:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Montserrat:wght@400;700&family=Oswald:wght@300;400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a :hover{
+    color: #AD172B;
+    text-decoration: none;
+}
+.logo {
+    margin-top: 20px;
+    width: 200px;
+    align-items: initial;
+    
+}
+#banner{
+    background-image: url(../assets/banner.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position:right; 
+    background-repeat:no-repeat; 
+    -moz-background-size:cover; 
+    -webkit-background-size:cover; 
+    background-size:cover;
+;
+    color: white;
+    margin-top: -95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-heading {
+    font-weight: 900;
+    font-size: 50px;
+    font-family: 'Oswald' !important;
+}
+.banner-para {
+    font-size: 20px;
+    font-family: 'Open Sans' !important;
+}
+.banner-btn{
+    color: white;
+    background-color: #AD172B;
+    padding: 10px 50px 10px 50px;
+    border: none;
+    font-family: 'Oswald' !important;
+}
+.package-card {
+    text-align: center;
+}
+.package-card-heading {
+    background-color: #AD172B;
+    font-family: 'Oswald';
+    color: white;
+    padding: 20px 10px;
+    width: 107% !important;
+    margin-left: -15.3px !important;
+    margin-top: -9px;
+}
+.card-old-price {
+    font-size: 50px;
+    font-family: 'Oswald';
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.card-new-price {
+    font-size: 100px;
+    color: #AD172B;
+    font-family: 'Oswald';
+    font-weight: 800;
+}
+.card-info {
+    font-size: 34px;
+    font-family: 'Oswald';
+    font-weight: 400;
+}
+.package-btn {
+    background-color: #AD172B;
+    font-family: 'Oswald';
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+.package-details {
+    padding-left: 80px !important;
+}
+.package-card {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 5px 10px 20px #888888;
+}
+.package-details {
+    padding-left: 50px;
+}
+.package-info-heading {
+    font-family: 'Oswald';
+    font-size: 30px;
+    font-weight: 700;
+}
+.package-info-heading span {
+    color: #AD172B;
+}
+ul li{
+    font-family: 'Open Sans';
+}
+#banner2{
+    background-image: url(../assets/banner2.png);
+    background-repeat: no-repeat;
+    width: 100%;
+
+    background-position:center center; 
+    background-repeat:no-repeat; 
+    -moz-background-size:cover; 
+    -webkit-background-size:cover; 
+    background-size:cover;
+
+}
+.banner2{
+    text-align: center;
+    color: white;
+}
+.banner2-headging {
+font-size: 66px;
+font-weight: 800;
+font-family: 'Oswald';
+
+}
+.banner2-headging span {
+    color: #AD172B;
+}
+.service-1 {
+    text-align: center;
+}
+i.fa-solid.fa-pen-to-square {
+    margin: 20px 0px 10px 0px;
+    width: 164px !important;
+    color: #AD172B;
+    font-size: 50px;
+}
+.ser-1-heading {
+    font-family: 'Oswald';
+    font-weight: 700;
+    font-size: 30px;
+}
+.services{
+    text-align: center;
+    align-items: center;
+}
+.service-1 {
+    margin-top: 30px;
+}
+.slider-img {
+    width: 400px;
+}
+#footer{
+    background-image: url(../assets/footer.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position:center center; 
+    background-repeat:no-repeat; 
+    -moz-background-size:cover; 
+    -webkit-background-size:cover; 
+    background-size:cover;
+    padding-top: 100px;
+}
+.footer{
+    text-align: center;
+    padding-bottom: 2%;
+}
+.footer-heading {
+    font-size: 66px;
+    font-weight: 700;
+    font-family: 'Oswald';
+    color: white;
+    margin-bottom: 10%;
+}
+p.form-tagline.mt-2 {
+    margin-left: 17%;
+}
+
+.footer-form {
+    background-color: white;
+    text-align: initial;
+    
+}
+#username {
+    width: 90%;
+    height: 50px;
+    padding-left: 10px;
+}
+#password {
+    width: 90%;
+    height: 50px;
+    padding-left: 10px;
+    
+}
+.login{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+input[type="submit"] {
+    margin-top: 50px;
+    background-color: #AD172B;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 90%;
+}
+label {
+    font-family: 'Oswald';
+    font-size: 20px;
+}
+.slider-value {
+    font-size: 38px;
+    color: white;
+    font-weight: 700;
+}
+.slider-value span {
+    color: #AD172B;
+}
+.slider-img {
+    margin-top: -81px;
+}
+#bottom{
+    background-color: black;
+    color: white;
+}
+.bottom-logo{
+    text-align: center;
+    margin-top: 5%;
+}
+.second-logo {
+    width: 150px;
+}
+.fa-solid.fa-phone {
+    color: #AD172B;
+    margin-right: 10px;
+}
+.fa-solid.fa-location-dot {
+    color: #AD172B;
+    margin-right: 10px;
+}
+.bottom-info{
+    display: flex;
+
+}
+
+.bottom-info.col-lg-12 {
+    margin-top: 10px;
+}
+.phone {
+    margin-right: 30px;
+}
+
+.bottom-info {
+    display: flex;
+    justify-content: center;
+}
+.terms-policy {
+    text-align: end;
+}
+.terms-policy a{
+    text-decoration: none;
+    color: white;
+}
+hr{
+
+    background-color: white;
+}
+input#fullname {
+    width: 90%;
+    height: 50px;
+}
+input#email {
+    width: 90%;
+    height: 50px;
+}
+input#comment {
+    width: 90%;
+    height: 100px;
+}
+
+@media screen and (max-width:768px) {
+
+    #banner {
+        background-image: url(../assets/768.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-repeat: no-repeat;
+        height: 100vh;
+        background-position: right;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+        color: white;
+        margin-top: -92px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner-heading {
+        font-size: 35px;
+
+    }
+    .banner-para {
+        font-size: 19px;
+    }
+    .package-card-heading {
+        width: 104.4% !important;
+
+    }
+    .package-details {
+        margin-top: 50px;
+    }
+    .footer-heading {
+        font-size: 45px;
+        margin-bottom: 10%;
+    }
+    .footer-form {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .terms-policy {
+        text-align: center;
+    }
+    .copyrights {
+        text-align: center;
+    }
+    p.form-tagline.mt-2 {
+        margin-left: 23%;
+    }
+    
+}
+@media screen and (min-width:321px) and (max-width:767px){
+    p.form-tagline.mt-2 {
+        margin-left: 0px !important;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    #banner {
+        background-image: url(../assets/banner-crop.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-repeat: no-repeat;
+        height: 100vh;
+        background-position: right;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+        color: white;
+        margin-top: -92px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    p.form-tagline.mt-2 {
+        margin-left: 17%;
+    }
+    .slider-img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:600px){
+
+}
+
+@media screen and (max-width:320px) {
+    .slider-img {
+        width: 285px;
+        margin-top: -33px;
+    }
+    .slider-value {
+        font-size: 20px;
+
+    }
+    .banner2-headging {
+        font-size: 35px;
+    }
+    #footer {
+        padding-top: 50px;
+    }
+    .login {
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .package-details {
+        padding-left: 35px !important;
+    }
+    .package-card {
+        margin-left: 10px;
+        width: 93%;
+    }
+    .package-card-heading {
+        width: 111.4% !important;
+    }
+
+}
